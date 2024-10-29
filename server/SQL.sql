@@ -1,0 +1,7 @@
+CREATE TABLE todo (
+    todo_id SERIAL PRIMARY KEY,
+    description TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
